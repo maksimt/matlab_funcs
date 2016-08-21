@@ -1,4 +1,4 @@
-function [ D ] = pdist( X )
+function [ D ] = mypdist( X )
 %MYPDIST computes squared euclidean distance between each row of X
 %input:
 % X - n*d n vectors in d dimensions
