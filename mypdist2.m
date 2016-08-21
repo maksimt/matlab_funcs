@@ -1,4 +1,4 @@
-function [ D ] = pdist2( X,Y )
+function [ D ] = mypdist2( X,Y )
 %PDIST2 computes the squared euclidean distance between rows of X and rows
 %of Y
 %input:
