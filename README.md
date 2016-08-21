@@ -28,6 +28,19 @@ ans =
    1.3632e-08
 ```
 
+Compared to the popular (and much more versatile) [ipdm package](http://www.mathworks.com/matlabcentral/fileexchange/18937-ipdm--inter-point-distance-matrix):
+```
+tic;D3=ipdm(X);toc
+norm(D3.^2-D,'fro')
+```
+outputs
+```
+Elapsed time is 39.528794 seconds.
+ans =
+
+   1.7721e-10
+```
+
 # Installation
 To install simply copy the files into your matlab path.
 
