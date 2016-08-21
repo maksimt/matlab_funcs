@@ -36,6 +36,7 @@ norm(D3.^2-D,'fro')
 outputs
 ```
 Elapsed time is 39.528794 seconds.
+
 ans =
 
    1.7721e-10
