@@ -4,7 +4,7 @@ Useful/improved matlab functions.
 
 
 # Distance Functions
-mypdist, mypdist2 compute the squared euclidean distance between vectors.
+mypdist, mypdist2 compute the squared Euclidean distance between vectors. Use elementwise `sqrt` to get simple Euclidean.
 
 ### Benchmarks (R2016a)
 ```
