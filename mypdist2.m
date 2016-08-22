@@ -5,7 +5,7 @@ function [ D ] = mypdist2( X,Y )
 % X - n*d n rows in d dimensions
 % Y - m*d m rows in d dimensions
 %output:
-% D - n*m D_ij = norm(X(i,:)-Y(j,:))
+% D - n*m D_ij = norm(X(i,:)-Y(j,:))^2
 
 [n,dx] = size(X);
 [m,dy] = size(Y);
